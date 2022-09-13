@@ -5,7 +5,7 @@
 # consulted: Google
 
 print(
-    "Let's play Nim!  This version you have 12 stones to begin and the last player to take a stone wins!  You can remove between 1 and 3 stones."
+    "Let's play Nim!  This version you have 12 stones to begin and the last player to take a stone wins!  You can remove between 1 and 3 stones.\n"
 )
 
 
