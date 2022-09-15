@@ -1,7 +1,8 @@
 # binsearch.py
 # Shana Elizabeth Henry
 # CSCI 77800 Fall 2022
-# collaborators: Alex Long 
+# collaborators: None 
+# consulted: Alex Long
 
 
 def binsearch(array, target):
