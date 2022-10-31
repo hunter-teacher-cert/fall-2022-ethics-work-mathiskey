@@ -1,6 +1,6 @@
 # Shana Elizabeth Henry
 
-Consequences:
+# Consequences:
 
 Unintended Consequences of Wearable Sensor Use in Healthcare
 Link to article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5171570/
