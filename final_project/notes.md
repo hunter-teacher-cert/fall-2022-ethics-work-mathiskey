@@ -1,29 +1,36 @@
 HS Matching Algorithm Project - CSCI 77800 Fall 2022
 by Shana Elizabeth Henry and Katherine (Kate) Maschmeyer
+
 Possible resources:
 https://www.youtube.com/watch?v=7n-bvvD6ZEc
 https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm
 https://medium.com/algorithms-in-the-wild/gaining-insights-from-the-nyc-school-admission-lottery-numbers-42dd9a98b115
 https://medium.com/algorithms-in-the-wild/decoding-the-nyc-school-admission-lottery-numbers-bae7148e337d
+
 HS Matching Notes
+
 Each student has:
-Name
-Generate random lottery number (using UUID)
-import uuid
-for i in range(1,10): print(uuid.uuid4())
+- Name
+- Generate random lottery number (using UUID)
+- import uuid
+- for i in range(1,10): print(uuid.uuid4())
+
 Ranking of schools
-Whether student is zoned (& for which school)
-Whether student is in set-aside category
-Current top preferred school
+- Whether student is zoned (& for which school)
+- Whether student is in set-aside category
+- Current top preferred school
+
 Each school has:
-Name
-Zoned or not
-List of student spots (initially empty, hard limit on number of spots)
-% of seats that are set-aside (might store as number of seats that are set-aside)
+- Name
+- Zoned or not
+- List of student spots (initially empty, hard limit on number of spots)
+- % of seats that are set-aside (might store as number of seats that are set-aside)
+
 There are many more HS than students. For our simulation, we'll simulate what happened in video (equal number of students and schools)
 Algorithm works to maximize overall student satisfaction
 stable matching at end of algorithm: no student & school match that would rather be matched with each other than the pair they are match with
 students propose matches, not schools
+
 Take into account: lottery number, priority, zoning
 Assuming for sake of ease that priority and zoning are mutually exclusive in our algorithm
 Data structures
